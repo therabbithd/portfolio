@@ -1,8 +1,8 @@
 /**********************************/
-
-
-
-
+/*                                */  
+/*  Guillermo Diañez Gomez        */  
+/*                                */
+/*                                */
 /**********************************/
 
 @font-face {
@@ -49,6 +49,7 @@ blockquote {border-left: 3px solid rgb(204, 154, 60);
             background-color: #98d1f752;
             padding:10px;                   /* margin y padding pequeñp */
             text-align: center;
+            font-family: texto;
         }
 li{
     font-family: texto;
@@ -56,6 +57,7 @@ li{
 #foto  {
     border-radius: 20px;
     border: black ;
-    margin-top: 20px;
-    
+    margin: auto;
+    display: block;
+    width: 80%;
 }
