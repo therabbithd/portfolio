@@ -1,0 +1,61 @@
+/**********************************/
+
+
+
+
+/**********************************/
+
+@font-face {
+    font-family: titulos;
+    src:url(./FONTS/Rukishy\ Triall.ttf);
+}
+
+* {box-sizing: border-box;}     /* el width incluye el padding 
+                                el espacio en blaco lo coge
+                                de dentro del cuadro
+                                lo haré sirmpre*/
+
+@font-face {
+    font-family: texto;
+    src:url(./FONTS/Klikiby-Regular.otf);
+}
+
+body {background-color:#FD4D0C
+    ;
+        background-image: url(./IMG/checkered-table-cloth-1.jpg);
+        background-size: 50%;}
+
+#wrapper {background-color: #FD4D0C;
+        width:80%;                  /* el width va en % */
+        margin: auto;
+        padding: 10%;
+        border-radius: 20px;
+        background-image: url(./IMG/old-paper-texture.jpg);}        
+        
+
+h1 {border: 2px solid rgb(209, 155, 39);
+    text-align: center;
+    padding:10px 0;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px rgb(128, 128, 128);
+    font-family: titulos
+}
+
+h2 {font-family: titulos}
+
+blockquote {border-left: 3px solid rgb(204, 154, 60);
+            font-style: italic;             /* para pone en cursiva */
+            font-weight: bold;              /* para poner en negrita */
+            background-color: #98d1f752;
+            padding:10px;                   /* margin y padding pequeñp */
+            text-align: center;
+        }
+li{
+    font-family: texto;
+}
+#foto  {
+    border-radius: 20px;
+    border: black ;
+    margin-top: 20px;
+    
+}
