@@ -22,8 +22,9 @@
 
 body {background-color:#FD4D0C
     ;
-        background-image: url(./IMG/checkered-table-cloth-1.jpg);
-        background-size: 50%;}
+        background-image: url(./IMG/checks-red-gingham-background-13825428731kX.jpg);
+        background-size: 50%;
+}
 
 #wrapper {background-color: #FD4D0C;
         width:80%;                  /* el width va en % */
@@ -60,4 +61,9 @@ li{
     margin: auto;
     display: block;
     width: 80%;
+}
+@media screen and (width<600px) {
+    #wrapper{
+        width: 90%;
+    }
 }
